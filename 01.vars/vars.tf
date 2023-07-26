@@ -5,3 +5,7 @@ variable "sample_string" {
 variable "sample_number" {
   default = 2500
 }
+
+variable "sample_boolean" {
+  default = true
+}
