@@ -6,6 +6,6 @@ output "number" {
   value = var.sample_number
 }
 
-output "AKR is going thropugh tough times" {
+output "hii" {
   value = var.sample_boolean
 }
