@@ -18,3 +18,12 @@ variable "sample_list" {
    2000
   ]
 }
+
+variable "sample_definition" {
+  default = {
+    number1 = 100
+    string1 = "name"
+    boolean1 = false
+    boolean2 = true
+  }
+}
