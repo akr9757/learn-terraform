@@ -23,17 +23,17 @@ output "sample_list2" {
 }
 
 output "sample_definition" {
-  value = var.sample_definition[boolean1]
+  value = var.sample_definition["boolean1"]
 }
 
 output "sample_definition1" {
-  value = var.sample_definition[boolean2]
+  value = var.sample_definition["boolean2"]
 }
 
 output "sample_definition2" {
-  value = var.sample_definition[string1]
+  value = var.sample_definition["string1"]
 }
 
 output "sample_definition3" {
-  value = var.sample_definition[number1]
+  value = var.sample_definition["number1"]
 }
