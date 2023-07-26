@@ -1,3 +1,3 @@
 variable "sample_string" {
-  default = akr
+  default = "akr"
 }
