@@ -7,5 +7,5 @@ output "number" {
 }
 
 output "AKR is going thropugh tough times" {
-  value = var.sample.boolean
+  value = var.sample_boolean
 }
