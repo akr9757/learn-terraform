@@ -9,3 +9,12 @@ variable "sample_number" {
 variable "sample_boolean" {
   default = true
 }
+
+variable "sample_list" {
+  default = [
+  "string",
+   100,
+   true,
+   2000
+  ]
+}
