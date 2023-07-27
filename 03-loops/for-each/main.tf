@@ -32,11 +32,11 @@ variable "fruits1" {
       count = 10
     }
     banana = {
-      name = 'banana'
+      name = "banana"
       count = 100
     }
     grapes = {
-      name = 'grapes'
+      name = "grapes"
       count = 50
     }
   }
