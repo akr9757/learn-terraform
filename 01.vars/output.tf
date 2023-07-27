@@ -45,3 +45,7 @@ output "env" {
 output "auto" {
   value = var.auto_num1
 }
+
+output "anil" {
+  value = var.anil
+}
