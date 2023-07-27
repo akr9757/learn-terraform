@@ -15,3 +15,29 @@ variable "fruits" {
     grapes = 50
   }
 }
+
+resource "null_resource" "fruits1" {
+  for_each = var.fruits1
+
+  provisioner "local-exec" {
+    command = "echo fruit_name - ${each.value["name"]} -${each.value["count"]}"
+  }
+}
+
+
+variable "fruits1" {
+  default = {
+    apple = {
+      name = apple
+      count = 10
+    }
+    banana = {
+      name = banana
+      count = 100
+    }
+    grapes = {
+      name = grapes
+      count = 50
+    }
+  }
+}
