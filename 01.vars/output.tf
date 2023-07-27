@@ -37,3 +37,7 @@ output "sample_definition2" {
 output "sample_definition3" {
   value = var.sample_definition["number1"]
 }
+
+output "env" {
+  value = var.env
+}

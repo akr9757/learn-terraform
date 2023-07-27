@@ -27,3 +27,5 @@ variable "sample_definition" {
     boolean2 = true
   }
 }
+
+variable "env" {}
