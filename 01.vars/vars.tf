@@ -29,3 +29,5 @@ variable "sample_definition" {
 }
 
 variable "env" {}
+
+variable "auto_num1" {}

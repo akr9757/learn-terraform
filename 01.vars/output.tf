@@ -41,3 +41,7 @@ output "sample_definition3" {
 output "env" {
   value = var.env
 }
+
+output "auto" {
+  value = var.auto_num1
+}
