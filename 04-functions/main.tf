@@ -18,3 +18,7 @@ variable "sample2" {
 output "call4" {
   value = element(var.sample2, 0)
 }
+
+output "call5" {
+  value = element(var.sample2, 1)
+}
