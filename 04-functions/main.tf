@@ -22,3 +22,14 @@ output "call4" {
 output "call5" {
   value = element(var.sample2, 1)
 }
+
+variable "akr" {
+  default = {
+    xyz = 100
+    abc = 200
+  }
+}
+
+output "akr" {
+  value = lookup(var.akr, "xyz", "dummy")
+}
