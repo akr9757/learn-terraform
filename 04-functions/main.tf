@@ -33,3 +33,7 @@ variable "akr" {
 output "akr" {
   value = lookup(var.akr, "xyz", "dummy")
 }
+
+output "akr1" {
+  value = lookup(var.akr, "b", "dummy")
+}
