@@ -22,3 +22,11 @@ output "fruits5" {
 output "fresh1" {
   value = var.fresh["a"]
 }
+
+output "fresh2" {
+  value = var.fresh["b"]
+}
+
+output "fresh3" {
+  value = var.fresh["m"]
+}
