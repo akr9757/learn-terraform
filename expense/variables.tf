@@ -27,6 +27,6 @@ resource "null_resource" "actors" {
   for_each = var.actors
 
   provisioner "local-exec" {
-    command = "echo actor name is ${lookup(each.value, "name", none )} and his height is ${lookup(each.value, "height", none )}"
+    command = "echo actor name is ${lookup(each.value, "name", "none" )} and his height is ${lookup(each.value, "height", "none" )}"
   }
 }
