@@ -33,8 +33,8 @@ resource "null_resource" "actors" {
 
 variable "fresh" {
   default = {
-    a = apple
-    b = banana
-    m = mango
+    a = "apple"
+    b = "banana"
+    m = "mango"
   }
 }
