@@ -28,4 +28,5 @@ resource "null_resource" "actors" {
 
   provisioner "local-exec" {
     command = "echo actor name is ${each.value["name"]} and his height is ${each.value["height"]}"
+  }
 }
