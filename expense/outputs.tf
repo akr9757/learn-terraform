@@ -13,3 +13,7 @@ output "fruits2" {
 output "fruits3" {
   value = var.fruits1[2]
 }
+
+output "fruits4" {
+  value = var.fruits1[3]
+}
