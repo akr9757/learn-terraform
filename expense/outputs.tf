@@ -20,5 +20,5 @@ output "fruits5" {
 }
 
 output "fresh1" {
-  value = var.fresh[a]
+  value = var.fresh["a"]
 }
