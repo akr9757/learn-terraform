@@ -1,3 +1,3 @@
-outputs "fruit" {
+output "fruit" {
   value = var.fruits
 }
