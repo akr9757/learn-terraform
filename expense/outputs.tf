@@ -17,3 +17,7 @@ output "fruits3" {
 output "fruits4" {
   value = var.fruits1[3]
 }
+
+output "fruits5" {
+  value = element(var.fruits1, 4)
+}
