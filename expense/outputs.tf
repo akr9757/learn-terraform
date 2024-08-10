@@ -3,5 +3,5 @@ output "fruit" {
 }
 
 output "fruits1" {
-  value = var.fruits[0]
+  value = var.fruits1[0]
 }
