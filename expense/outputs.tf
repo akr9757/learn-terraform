@@ -18,3 +18,7 @@ output "fruits3" {
 output "fruits5" {
   value = element(var.fruits1, 4)
 }
+
+output "fresh1" {
+  value = var.fresh[a]
+}

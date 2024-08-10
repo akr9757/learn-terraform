@@ -30,3 +30,11 @@ resource "null_resource" "actors" {
     command = "echo actor name is ${lookup(each.value, "name", "none" )} and his height is ${lookup(each.value, "height", "none" )}"
   }
 }
+
+variable "fresh" {
+  default = {
+    a = apple
+    b = banana
+    m = mango
+  }
+}
